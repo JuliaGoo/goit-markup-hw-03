@@ -369,8 +369,6 @@ footer {
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
-    padding-right: 25px;
-    padding-left: 25px;
     background-color: var(--blue-color);
     color: var(--white-color);
 }
