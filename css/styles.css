@@ -223,7 +223,6 @@ footer {
     padding-top: 200px;
     padding-bottom: 200px;
     text-align: center;
-
 }
 
 .main-title {
@@ -233,11 +232,14 @@ footer {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    display: inline-block;
     margin-bottom: 30px;
+    width: 696px;
+    flex-grow: 1;
 }
 
 .order-button {
-    display: inline-block;
+    display: block;
     background-color: var(--blue-color);
     color: var(--white-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -259,7 +261,7 @@ footer {
 }
 
 
-.adv-title {
+.introduction-title {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
@@ -268,18 +270,18 @@ footer {
     margin-bottom: 10px;
 }
 
-.adv-subtitle {
+.introduction-subtitle {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
 }
 
-.adv-list {
+.introduction-list {
     display: flex;
     gap: 30px;
 }
-.adv-item {
+.introduction-item {
     display: block;
     max-width: 270px;
 }
@@ -387,7 +389,7 @@ footer {
     letter-spacing: 0.06em;
     color: var(--primary-text-color);
     margin-top: 0;
-    margin-bottom: 20px;
+    margin-bottom: 4px;
     display: block;
 }
 
