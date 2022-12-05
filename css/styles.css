@@ -68,7 +68,7 @@ body {
 }
 
 .header{
-    border: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
 }
 .header-container {
     display: flex;
